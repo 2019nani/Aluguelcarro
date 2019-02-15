@@ -6,11 +6,11 @@ import entidades.Pagamento;
 public class Servicoaluguel {
 private Double precopordia;
 private Double precoporhora;
-private Brasiltaxaservicos taxa;
+private Taxaservico taxa;
 public Servicoaluguel() {
 	
 }
-public Servicoaluguel(Double precopordia, Double precoporhora, Brasiltaxaservicos taxa) {
+public Servicoaluguel(Double precopordia, Double precoporhora, Taxaservico taxa) {
 	this.precopordia = precopordia;
 	this.precoporhora = precoporhora;
 	this.taxa = taxa;
